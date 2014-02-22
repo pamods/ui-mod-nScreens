@@ -1,0 +1,24 @@
+{
+    "context": "client",
+    "identifier": "info.nanodesu.nScreens",
+    "display_name": "n Screens",
+    "description": "Mod tries to make it easier to configure multiscreen pip setups. Best used together with some sort of fullscreen script",
+    "author": "Cola_Colin",
+    "version": "1.0",
+    "signature": "not yet implemented",
+    "priority": 110,
+    "enabled": true,
+    "id": "nScreens",
+    "forum": "",
+    "category": [
+        "Framework"
+    ],
+    "global_mod_list": [
+        "coui://ui/mods/nScreens/global.js"
+    ],
+    "live_game": [
+        "coui://ui/mods/nScreens/live_game.js"
+    ],
+    "date": "2014/02/22",
+    "build": "61450"
+}
