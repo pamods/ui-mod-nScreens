@@ -28,6 +28,34 @@ var nScreens = {
 //		pipIndex: 0,
 };
 
+// fun stuff, easy to crash PA
+//(function() {
+//	
+//	// i.e. 4x4 views
+//	var xNum = 4;
+//	var yNum = 4;
+//	
+//	var w = 4480 / xNum;
+//	var h = 1080 / yNum;
+//	
+//	var cnt = 0;
+//	
+//	nScreens.views.length = 0;
+//	
+//	for (var x = 0; x < xNum; x++) {
+//		for (var y = 0; y < yNum; y++) {
+//			var t = Math.floor(y * h);
+//			var l = Math.floor(x * w);
+//			
+//			nScreens.views.push("top: "+t+"px; left: "+l+"px; width: "+w+"px; height: "+h+"px;");
+//			
+//			cnt++;
+//			nScreens.hackForIndex.push(cnt);
+//		}
+//	}
+//}());
+
+
 $(function() {
 	var holodecks = $('holodeck').length;
 
